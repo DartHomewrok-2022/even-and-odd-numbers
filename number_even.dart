@@ -6,7 +6,6 @@
 
 void main() {
   int var_int = 1234;
-  int even_digits = 0;
   int a = var_int % 10;
   var_int = var_int ~/ 10;
   int c = var_int % 10;
@@ -18,5 +17,4 @@ void main() {
       b * ((5 - (b / 2 - b ~/ 2) * 10) / 5) +
       c * ((5 - (c / 2 - c ~/ 2) * 10) / 5) +
       d * ((5 - (d / 2 - d ~/ 2) * 10) / 5));
-  print((5 - (b / 2 - b ~/ 2) * 10) / 5);
 }
