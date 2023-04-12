@@ -2,7 +2,4 @@
 
 // Print 1 if the number is even, otherwise print 0.
 
-void main() {
-  int a = 4;
-  print((a + 1) % 2);
-}
+void main() {}
